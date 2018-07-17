@@ -1,0 +1,20 @@
+net: "code/dim256/sphereface04_model.prototxt"
+#test_iter: 100 
+#test_interval: 2000
+
+base_lr: 0.1
+lr_policy: "multistep"
+gamma: 0.1
+
+stepvalue: 6000
+stepvalue: 16000
+stepvalue: 26000
+max_iter: 100000
+
+display: 100
+momentum: 0.9
+weight_decay: 0.0005
+snapshot: 2000
+snapshot_prefix: "result/dim256_sphereface04_model"
+
+solver_mode: GPU

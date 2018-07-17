@@ -1,13 +1,20 @@
 # *SphereFace* : Deep Hypersphere Embedding for Face Recognition
 
 左庆新增：MobileNet-SphereFace。
+
 在之前基础上加了batch norm, depthwise convolution, train\code文件夹里面有多种不同的模型可以训练
 
 可能会用到的数据
+
 CASIA-WebFace下载链接：https://pan.baidu.com/s/10e08IjbCDMvO590lyuTTtQ 密码：3c67
+
 MS-Celeb-1M_clean_list.txt下载链接：https://pan.baidu.com/s/17Hzz9uATLAW6pGHTbrj-7g 密码：fwwq
+
 MS-Celeb-1M下载链接链接：https://pan.baidu.com/s/1g2I111bJB9sEZZho1xZI6A 密码：z04o
+
 Ms-celeb-1M_clean-112X96下载链接
+
+
 ---------------------------------  以下是我fork时的信息 ---------------------------------------------
 
 

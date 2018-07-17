@@ -1,0 +1,20 @@
+net: "code/mobilenet-dim512/sphereface10_model.prototxt"
+#test_iter: 100 
+#test_interval: 2000
+
+base_lr: 0.1
+lr_policy: "multistep"
+gamma: 0.1
+
+stepvalue: 16000
+stepvalue: 26000
+stepvalue: 46000
+max_iter: 100000
+
+display: 100
+momentum: 0.9
+weight_decay: 0.0005
+snapshot: 2000
+snapshot_prefix: "result/mobilenet_dim512_sphereface10_model"
+
+solver_mode: GPU
